@@ -1,0 +1,146 @@
+section .banner {
+  position: relative;
+}
+
+section .banner .info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 200px;
+}
+
+section .banner .info h2 {
+  color: #d6d4d2;
+  font-family: Arimo;
+  font-size: 51px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+section .banner .info span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.get-in-touch {
+  background-color: #303030;
+  padding: 36px 68px;
+}
+
+.get-in-touch .wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 28px;
+}
+
+.get-in-touch h3 {
+  color: #d6d4d2;
+  font-family: Arimo;
+  text-align: center;
+  margin: 24px 0;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px; /* 100% */
+  letter-spacing: 1.4px;
+}
+
+.get-in-touch .wrapper .details,
+.get-in-touch .wrapper form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.get-in-touch .wrapper .details h2 {
+  color: #d6d4d2;
+  font-family: Arimo;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 80px; /* 156.863% */
+  letter-spacing: 1.4px;
+}
+
+.get-in-touch .wrapper .details p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59.5px; /* 238% */
+}
+
+.get-in-touch form input,
+.get-in-touch form textarea {
+  background-color: #3d3b3b;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 14px 24px;
+  outline: none;
+  color: white;
+}
+
+.get-in-touch form input::placeholder,
+.get-in-touch form textarea::placeholder {
+  color: white;
+}
+.get-in-touch form button {
+  padding: 8px 20px;
+  width: max-content;
+  background-color: #0d4b74;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s all ease-in-out;
+}
+
+.get-in-touch form button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  section .banner .info {
+    left: 20px;
+  }
+  section .banner .info h2 {
+    font-size: 24px;
+  }
+  section .banner .info span {
+    font-size: 14px;
+  }
+  .get-in-touch .wrapper {
+    flex-direction: column;
+  }
+  .get-in-touch {
+    padding: 16px 8px;
+  }
+  .get-in-touch h3 {
+    font-size: 36px;
+  }
+  .get-in-touch .wrapper .details {
+    align-items: center;
+  }
+  .get-in-touch .wrapper .details h2 {
+    font-size: 28px;
+  }
+  .get-in-touch .wrapper .details p {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  section .banner .info {
+    left: 20px;
+  }
+  section .banner .info h2 {
+    font-size: 16px;
+  }
+  section .banner .info span {
+    font-size: 12px;
+  }
+}

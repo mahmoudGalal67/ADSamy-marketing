@@ -5,6 +5,7 @@
 }
 body {
   overflow-x: hidden;
+  background-color: #1f1f1f;
 }
 
 ul {
@@ -145,8 +146,8 @@ nav .navbar .links li:hover .Specialties-sub-menu {
   .navbar .bx-menu {
     display: block;
     position: absolute;
-    top: 50%;
-    right: 50px;
+    top: 60%;
+    right: 25px;
     transform: translateY(-50%);
   }
   nav .navbar .links li.logo {
@@ -235,6 +236,16 @@ nav .navbar .links li:hover .Specialties-sub-menu {
   }
 }
 
+@media (max-width: 500px) {
+  nav .navbar {
+    padding: 0;
+  }
+  .main-logo {
+    width: 200px;
+    object-fit: contain;
+  }
+}
+
 /* NavBar */
 
 /* banner */
@@ -245,6 +256,160 @@ section .banner img {
 }
 
 /* banner */
+
+/* Get-Started */
+
+.get-started {
+  margin-bottom: 65px;
+}
+
+.get-started .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 36px 64px;
+  background: #172b43;
+}
+
+.get-started .wrapper .left {
+  flex: 2;
+  background: #fff;
+  padding: 36px 28px;
+}
+
+.get-started .wrapper .left h2 {
+  color: #172b43;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 65.25px;
+  font-weight: 700;
+  line-height: 86.4px; /* 132.414% */
+}
+
+.get-started .wrapper .left form {
+  display: flex;
+  flex-direction: column;
+}
+
+.get-started .wrapper .left form .input-element {
+  display: flex;
+  align-items: center;
+}
+
+.get-started .wrapper .left form .input-element input {
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.get-started .wrapper .left form .input-element input::placeholder {
+  color: #172b43;
+  font-family: Noto Sans;
+  font-size: 20.969px;
+  font-weight: 400;
+}
+
+.get-started .wrapper .left form .submit-button {
+  display: flex;
+  margin: 40px 0;
+}
+
+.get-started .wrapper .left form .submit-button button {
+  flex: 1;
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 25.266px;
+  font-weight: 700;
+  line-height: 54.6px; /* 216.104% */
+  background-color: #172b43;
+}
+
+.get-started .wrapper .left form .submit-button > div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #574232;
+}
+
+.get-started .wrapper .right {
+  flex: 3;
+}
+
+.get-started .wrapper .right span:nth-child(1) {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 57.6px; /* 120% */
+}
+
+.get-started .wrapper .right span:nth-child(2) {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 58.008px;
+  font-weight: 600;
+  line-height: 60px; /* 103.434% */
+  display: block;
+  margin: 8px 0;
+}
+
+.get-started .wrapper .right .verified {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.get-started .wrapper .right .verified p {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 33.75px;
+  font-weight: 600;
+  line-height: 43.2px; /* 128% */
+}
+
+.get-started .wrapper .right .copmanies-wrapper {
+  margin-top: 25px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1600px) {
+  .get-started .wrapper {
+    padding: 36px 280px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .get-started .wrapper {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .get-started .wrapper .left,
+  .get-started .wrapper .right {
+    width: 100%;
+  }
+  .get-started .wrapper .left h2 {
+    font-size: 36px;
+  }
+  .get-started .wrapper .left form .input-element input::placeholder {
+    font-size: 16px;
+  }
+  .get-started .wrapper .right > span {
+    text-align: center;
+    display: block;
+    font-size: 36px !important;
+  }
+  .get-started .wrapper .right .verified p {
+    font-size: 18px;
+  }
+}
+
+/* Get-Started */
 
 /* Footer */
 
@@ -304,9 +469,7 @@ footer .social-icons {
   gap: 24px;
 }
 
-/* Footer */
-
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   footer .wrapper {
     flex-direction: column;
     align-items: center;
@@ -316,3 +479,5 @@ footer .social-icons {
     flex-wrap: wrap;
   }
 }
+
+/* Footer */

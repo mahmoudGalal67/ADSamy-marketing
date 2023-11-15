@@ -34,6 +34,13 @@
     left: 0;
     width: calc(100%);
   }
+  .owl-nav button {
+    width: 30px;
+    height: 30px;
+  }
+  .owl-nav button span {
+    font-size: 28px !important;
+  }
 }
 
 /* owl-nav */

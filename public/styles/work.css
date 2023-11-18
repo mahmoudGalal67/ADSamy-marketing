@@ -1,0 +1,37 @@
+main.work-banner .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+
+section.our-work {
+  padding: 25px 120px;
+  margin: 45px 0;
+}
+
+section.our-work h2 {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 57.422px;
+  font-weight: 600;
+  line-height: 72px; /* 125.388% */
+}
+
+section.our-work p {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 31.92px; /* 152% */
+}
+
+@media (max-width: 700px) {
+  section.our-work h2 {
+    font-size: 32px;
+  }
+  section.our-work p {
+    font-size: 18px;
+  }
+  section.our-work {
+    padding: 25px;
+  }
+}

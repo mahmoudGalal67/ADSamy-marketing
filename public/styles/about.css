@@ -1,0 +1,231 @@
+main.about-hero {
+  background: url(../images/about/who_we_are-bg.png);
+  background-size: cover;
+}
+
+main.about-hero .image-wrapper img {
+  width: 80%;
+  margin-left: 20%;
+}
+
+main.about-hero .details {
+  padding: 25px;
+  margin: 14% 0;
+}
+
+main.about-hero .details span {
+  color: #fff;
+  font-family: Glory;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 67px; /* 181.081% */
+}
+
+main.about-hero .details p {
+  color: #c4c1c1;
+  font-family: Glory;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 75px;
+}
+
+main.about-hero .card-wrapper {
+  margin: 25px 0;
+}
+
+main.about-hero .card-wrapper .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+main.about-hero .card-wrapper .our-vision:hover,
+main.about-hero .card-wrapper .our-mission:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+main.about-hero .card-wrapper .our-vision,
+main.about-hero .card-wrapper .our-mission {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+main.about-hero .card-wrapper .our-vision .front,
+main.about-hero .card-wrapper .our-mission .front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px;
+}
+
+main.about-hero .card-wrapper .our-vision .back,
+main.about-hero .card-wrapper .our-mission .back {
+  padding: 12px;
+  background-color: #0d4b74;
+  color: #fff;
+  font-family: Glory;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px; /* 125% */
+}
+
+main.about-hero .card-wrapper .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #172b43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Glory;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+
+main.about-hero .card-wrapper .our-vision span:nth-child(2),
+main.about-hero .card-wrapper .our-mission span:nth-child(2) {
+  color: #888;
+  font-family: Arimo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px; /* 140% */
+  text-transform: uppercase;
+}
+main.about-hero .card-wrapper .our-vision span:nth-child(3),
+main.about-hero .card-wrapper .our-mission span:nth-child(3) {
+  color: #fff;
+  font-family: Glory;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.5px; /* 150% */
+}
+
+@media (max-width: 800px) {
+  main.about-hero {
+    background-position: center;
+  }
+
+  main.about-hero .details {
+    padding: 25px;
+    margin: 0;
+  }
+  main.about-hero .image-wrapper img {
+    margin-left: 10%;
+  }
+  main.about-hero .details p {
+    font-size: 28px;
+  }
+  main.about-hero .details span {
+    font-size: 28px;
+  }
+  main.about-hero .card-wrapper .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* our-friends */
+
+section.our-friends {
+  padding: 25px;
+  margin: 45px 0;
+}
+
+section.our-friends h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 69px; /* 115% */
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+section.our-friends h3 span {
+  color: #0f3f76;
+}
+
+section.our-friends .wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section.our-friends .wrapper img {
+  width: 120px;
+}
+
+/* our-friends */
+section.ceo-speech .wrapper {
+  padding: 25px;
+  margin: 45px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+
+section.ceo-speech .wrapper .left {
+  flex: 2;
+}
+section.ceo-speech .wrapper .right {
+  flex: 1;
+}
+
+section.ceo-speech .wrapper .right img {
+  width: 100%;
+}
+
+section.ceo-speech .wrapper h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 37.2px; /* 155% */
+}
+section.ceo-speech .wrapper span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25.5px; /* 106.25% */
+}
+section.ceo-speech .wrapper p {
+  color: #d8d8d8;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 35px; /* 184.211% */
+  margin: 25px 0;
+}
+
+@media (max-width: 900px) {
+  section.ceo-speech .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* CEO */

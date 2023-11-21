@@ -8,27 +8,27 @@ const allItems = document.querySelectorAll("main .wrapper .item");
 const wrapper = document.querySelector("main");
 
 item1.addEventListener("mouseenter", () => {
-  wrapper.style.backgroundImage = "url(../public/images/home/Frame1.png)";
+  wrapper.style.backgroundImage = "url(../public/images/home/Frame1.webp)";
 });
 item2.addEventListener("mouseenter", () => {
-  wrapper.style.backgroundImage = "url(../public/images/home/Frame2.png)";
+  wrapper.style.backgroundImage = "url(../public/images/home/Frame2.webp)";
 });
 item3.addEventListener("mouseenter", () => {
-  wrapper.style.backgroundImage = "url(../public/images/home/Frame3.png)";
+  wrapper.style.backgroundImage = "url(../public/images/home/Frame3.webp)";
 });
 item4.addEventListener("mouseenter", () => {
-  wrapper.style.backgroundImage = "url(../public/images/home/Frame4.png)";
+  wrapper.style.backgroundImage = "url(../public/images/home/Frame4.webp)";
 });
 item5.addEventListener("mouseenter", () => {
-  wrapper.style.backgroundImage = "url(../public/images/home/Frame5.png)";
+  wrapper.style.backgroundImage = "url(../public/images/home/Frame5.webp)";
 });
 item6.addEventListener("mouseenter", () => {
-  wrapper.style.backgroundImage = "url(../public/images/home/Frame6.png)";
+  wrapper.style.backgroundImage = "url(../public/images/home/Frame6.webp)";
 });
 
 Array.from(allItems).map((item) => {
   item.addEventListener("mouseleave", () => {
-    wrapper.style.backgroundImage = "url(../public/images/home/mainframe.png)";
+    wrapper.style.backgroundImage = "url(../public/images/home/mainframe.webp)";
   });
 });
 

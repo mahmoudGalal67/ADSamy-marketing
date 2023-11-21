@@ -1,6 +1,6 @@
 main {
   min-height: 100vh;
-  background-image: url(../images/home/mainframe.png);
+  background-image: url(../images/home/mainframe.webp);
   background-size: cover;
   transition: all 0.3s ease-in-out;
   position: relative;
@@ -139,21 +139,21 @@ main .wrapper .item6:hover .overlay {
     background-size: cover;
   }
   main .wrapper .item1 {
-    background-image: url(../images/home/Frame1.png);
+    background-image: url(../images/home/Frame1.webp);
   }
   main .wrapper .item2 {
-    background-image: url(../images/home/Frame2.png);
+    background-image: url(../images/home/Frame2.webp);
   }
   main .wrapper .item3 {
-    background-image: url(../images/home/Frame3.png);
+    background-image: url(../images/home/Frame3.webp);
   }
   main .wrapper .item4 {
-    background-image: url(../images/home/Frame4.png);
+    background-image: url(../images/home/Frame4.webp);
   }
   main .wrapper .item5 {
-    background-image: url(../images/home/Frame5.png);
+    background-image: url(../images/home/Frame5.webp);
   }
   main .wrapper .item6 {
-    background-image: url(../images/home/Frame6.png);
+    background-image: url(../images/home/Frame6.webp);
   }
 }

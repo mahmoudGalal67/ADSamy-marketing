@@ -39,6 +39,18 @@ main .wrapper .item .overlay {
   transition: all.3s ease-in-out;
 }
 
+main .wrapper .item .overlay-image {
+  position: absolute;
+  inset: 0;
+  display: none;
+}
+
+main .wrapper .item .overlay-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 main .wrapper .item .overlay.odd {
   background-color: #1c28a2;
 }
@@ -134,11 +146,14 @@ main .wrapper .item6:hover .overlay {
   main .wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  main .wrapper .item {
+  main .wrapper .item .overlay-image {
+    display: block;
+  }
+  /* main .wrapper .item {
     background-position: center;
     background-size: cover;
-  }
-  main .wrapper .item1 {
+  } */
+  /* main .wrapper .item1 {
     background-image: url(../images/home/Frame1Mopile.webp);
   }
   main .wrapper .item2 {
@@ -155,5 +170,5 @@ main .wrapper .item6:hover .overlay {
   }
   main .wrapper .item6 {
     background-image: url(../images/home/Frame6Mopile.webp);
-  }
+  } */
 }

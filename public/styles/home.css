@@ -29,6 +29,7 @@ main .wrapper .item {
 
 main .wrapper .item .overlay {
   position: absolute;
+  z-index: 2;
   inset: 0;
   display: flex;
   flex-direction: column;
@@ -148,6 +149,7 @@ main .wrapper .item6:hover .overlay {
   }
   main .wrapper .item .overlay-image {
     display: block;
+    z-index: 1;
   }
   /* main .wrapper .item {
     background-position: center;

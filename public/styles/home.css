@@ -139,21 +139,21 @@ main .wrapper .item6:hover .overlay {
     background-size: cover;
   }
   main .wrapper .item1 {
-    background-image: url(../images/home/Frame1.webp);
+    background-image: url(../images/home/Frame1Mopile.webp);
   }
   main .wrapper .item2 {
-    background-image: url(../images/home/Frame2.webp);
+    background-image: url(../images/home/Frame2Mopile.webp);
   }
   main .wrapper .item3 {
-    background-image: url(../images/home/Frame3.webp);
+    background-image: url(../images/home/Frame3Mopile.webp);
   }
   main .wrapper .item4 {
-    background-image: url(../images/home/Frame4.webp);
+    background-image: url(../images/home/Frame4Mopile.webp);
   }
   main .wrapper .item5 {
-    background-image: url(../images/home/Frame5.webp);
+    background-image: url(../images/home/Frame5Mopile.webp);
   }
   main .wrapper .item6 {
-    background-image: url(../images/home/Frame6.webp);
+    background-image: url(../images/home/Frame6Mopile.webp);
   }
 }
